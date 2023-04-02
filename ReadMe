@@ -1,0 +1,11 @@
+To generate the stl files install openscad and type in a terminal : 
+
+openscad -D ref=10 -o Cube1Part.stl cube_part.scad
+openscad -D ref=10 -o Cube1Black.stl cube_black.scad
+openscad -D ref=10 -o Cube1White.stl cube_white.scad
+
+For the support : 
+openscad -o Support.stl support.scad
+
+For the target
+openscad -o Target.stl target.scad
